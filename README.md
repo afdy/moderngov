@@ -50,7 +50,7 @@ The CLI tool doesn't yet support all the options the backend module provides, bu
 Bishopstoke
 Botley
 Bursledon and Hound North
-Chandler's Ford
+Chandlers Ford
 Eastleigh Central
 Eastleigh North
 Eastleigh South
@@ -126,7 +126,7 @@ keyposts             Leader of the Council; Cabinet Member for Planning and Prop
 265 Bursledon Windmill Joint Management Committee
 250 Bursledon, Hamble-le-Rice and Hound Local Area Committee
 254 Cabinet
-251 Chandler's Ford and Hiltingbury Local Area Committee
+251 Chandlers Ford and Hiltingbury Local Area Committee
 434 Community Wellbeing Scrutiny Panel
 276 Council
 306 Eastleigh Local Area Committee
