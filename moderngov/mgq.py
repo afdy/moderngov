@@ -43,13 +43,24 @@ def run():
         logger.error("You didn't request any data, try -h!")
 
 
-def print_dict(record: dict):
+def print_dict(record: dict, key_name: str = "", indent: int = 0):
+    indent_string = " " * indent
+
     if not record:
         print("No result found")
+
+    if key_name:
+        print(key_name)
+
     for key, value in record.items():
         if type(value) is dict:
+            print_dict(value, key_name=key, indent=indent + 2)
             continue
-        print("{:20} {:6}".format(key, value or "none"))
+        elif type(value) is list:
+            for item in value:
+                print_dict(item, indent=indent + 2)
+        elif type(value) is str:
+            print(indent_string + "{:20} {:6}".format(key, value or "none"))
 
 
 if __name__ == '__main__':
