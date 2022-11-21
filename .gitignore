@@ -1,0 +1,5 @@
+.idea
+cache-dir
+*.pyc
+dist/*
+mgq.cache-dir
