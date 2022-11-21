@@ -2,9 +2,10 @@
 name = "moderngov"
 version = "0.1.0"
 description = ""
-authors = ["Adam Ford <adam@fordys.net>"]
+authors = ["Adam Ford <feel.wires_0c@icloud.com>"]
 license = "GPL-3.0"
 readme = "README.md"
+homepage = "https://github.com/afdy/moderngov"
 
 [tool.poetry.dependencies]
 python = "^3.10"
