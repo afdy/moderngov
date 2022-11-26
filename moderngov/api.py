@@ -196,7 +196,7 @@ class Meetings:
 
     def by_meeting_id(self, meeting_id):
         """ get a specific meeting by id """
-        return self.api.get_meeting(meeting_id)
+        return self.api.get_meeting(meeting_id)['meeting'][0]
 
     def by_committee_id(self, committee_id):
         """ get all meetings for a given committee """
